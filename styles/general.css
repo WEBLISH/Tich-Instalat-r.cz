@@ -1,0 +1,41 @@
+.headlines
+
+.l-b-back {
+    background-color: #467DAA;
+}
+
+.d-b-back {
+    background-color: #225398;
+}
+
+.w-back {
+    background-color: #F4F7FA;
+}
+
+.o-back {
+    background-color: #E03A26;
+}
+
+.o-text {
+    color: #E03A26;
+}
+
+.w-text {
+    color: #FFFFFF;
+}
+
+.b-text {
+    color: #1F1F1F;
+}
+
+.headline {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
