@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link ref="stylesheet" href="styles/general.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -11,12 +11,59 @@
         rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="styles/card.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
 </head>
 
 <body>
+    <header class="w-back">
+        <div class="l-h flex-row">
+            <img class="h-logo">
+            <p class="h-header body">Tichý Instalatér</p>
+        </div>
+        <nav class="body">
+            <a>
+                <p>O mně</p>
+            </a>
+            <a>
+                <p>Služby</p>
+            </a>
+            <a>
+                <p>Reference</p>
+            </a>
+            <a>
+                <p>Kontakt</p>
+            </a>
+        </nav>
+    </header>
+    <div class="intro">
 
+
+        <div class="card-main w-back flex-row">
+            <div class="card-l flex-col">
+                <p class="o-text card-header headline-italic">
+                    Řemeslo co drží.
+                </p>
+                <p class="card-text headline b-text">
+                    Profesionální rozvody vody, odpadu a topení - rychle a kvalitně
+                </p>
+                <nav class="buttons flex-row ">
+                    <button class="card-button hollow body o-text">
+                        Služby
+                    </button>
+                    <button class="card-button fill o-back w-text">
+                        Kontakt
+                    </button>
+                </nav>
+            </div>
+            <div class="card-r flex-col">
+                <img class="card-img" src="images/card-image.svg">
+            </div>
+        </div>
 </body>
 
 </html>

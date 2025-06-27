@@ -1,4 +1,4 @@
-.headlines
+
 
 .l-b-back {
     background-color: #467DAA;
@@ -9,6 +9,8 @@
 }
 
 .w-back {
+    
+    
     background-color: #F4F7FA;
 }
 
@@ -28,14 +30,33 @@
     color: #1F1F1F;
 }
 
+
 .headline {
-  font-family: "Inter", sans-serif;
+font-family: "IBM Plex Serif", serif;
   font-optical-sizing: auto;
   font-style: normal;
+
+}
+
+.headline-italic {
+    font-family: "IBM Plex Serif", serif;
+  font-optical-sizing: auto;
+  font-style: italic;
 }
 
 .body {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
 }
