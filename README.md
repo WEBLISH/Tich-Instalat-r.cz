@@ -1,1 +1,0 @@
-# Tich-Instalat-r.cz

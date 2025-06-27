@@ -1,0 +1,50 @@
+.me {
+    height: 500px;
+    width: 100%;
+    
+    margin-top: 200px;
+}
+
+.about-me {
+    width: 60%;
+    position: relative;
+}
+
+.me-header {
+    font-size: 120px;
+    font-weight: 800;
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.me-text {
+    max-width: 70%;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.contact {
+    width: 40%;
+}
+
+.con-header {
+    font-size: 120px;
+    font-weight: 800;
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.con-text {
+     max-width: 70%;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-top: 20px;
+    line-height: 58px;
+}
+

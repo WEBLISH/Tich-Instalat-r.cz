@@ -1,4 +1,7 @@
-
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
 
 .l-b-back {
     background-color: #467DAA;
