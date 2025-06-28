@@ -1,0 +1,89 @@
+
+
+    .car {
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    h2 {
+        font-size: 100px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .carousel-container {
+      position: relative;
+      width: 500px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      background-color: #fff;
+    }
+
+    .carousel-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-slide {
+      min-width: 100%;
+      position: relative;
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      bottom: 0;
+      background: #E03A26;
+      color: #fff;
+      width: 100%;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+
+    .carousel-buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      padding: 0 1rem;
+    }
+
+    .carousel-buttons button {
+        background-color: transparent;
+      color: #E03A26;
+      border: none;
+      padding: 0.5rem 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 2.5rem;
+      transition: color 0.3s;
+    }
+
+    .carousel-buttons button:hover {
+      color: black;
+      
+    }
+
+    @media (max-width: 768px) {
+      .carousel-caption {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+      }
+    }
+ 
+
+  
+
+
+
+

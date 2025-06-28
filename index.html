@@ -18,6 +18,9 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/about-me.css">
+    <link rel="stylesheet" href="styles/carousel.css">
+    <link rel="stylesheet" href="styles/service.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
@@ -98,6 +101,144 @@
             </p>
         </div>
     </div>
+    <div class="car flex-col">
+        <h2 class="headline-italic">Reference</h2>
+
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack">
+                <div class="carousel-slide">
+                    <img src="https://via.placeholder.com/900x500?text=Bathroom+Renovation" alt="Montáž nového WC">
+                    <div class="carousel-caption body">Montáž nového WC</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://via.placeholder.com/900x500?text=Pipe+Installation" alt="Pipe Installation">
+                    <div class="carousel-caption">New Pipe Installation for Kitchen</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://via.placeholder.com/900x500?text=Drainage+Repair" alt="Drainage Repair">
+                    <div class="carousel-caption">Outdoor Drainage Repair in Garden</div>
+                </div>
+            </div>
+            <div class="carousel-buttons">
+                <button id="prevBtn">&#10094;</button>
+                <button id="nextBtn">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    <div class="services flex-col d-b-back">
+        <h3 class="headline-italic w-text">Služby</h3>
+        <div class="service-card w-back flex-col">
+            <div class="service-head flex-row">
+                <img class="service-icon" src="images/plumbing.png">
+                <p class="service-header headline-italic o-text">
+                    Rozvod odpadů
+                </p>
+            </div>
+            <p class="service-text body">
+                Navrhnu a zrealizuju rozvody odpadního potrubí
+                přesně podle potřeb vašeho domu nebo bytu. Používám kvalitní
+                materiály a dbám na správné spády i bezproblémový odtok.
+            </p>
+        </div>
+
+        <div class="service-card w-back flex-col">
+            <div class="service-head flex-row">
+                <img class="service-icon" src="images/pipe.png">
+                <p class="service-header headline-italic o-text">
+                    Čištění odpadu
+                </p>
+            </div>
+            <p class="service-text body">
+                Pokud se vám ucpal dřez, vana nebo záchod, rychle
+                a šetrně to vyřeším. Pracuji s profesionálním
+                vybavením a bez zbytečného nepořádku.
+                Odpad zase poteče jako nový.
+            </p>
+        </div>
+
+        <div class="service-card w-back flex-col">
+            <div class="service-head flex-row">
+                <img class="service-icon rad" src="images/radiator.png">
+                <p class="service-header headline-italic o-text">
+                    Rozvody topení
+                </p>
+            </div>
+            <p class="service-text body">
+                Postarám se o kompletní rozvody topení. Umím radiátory, podlahové topení i kombinované systémy. Váš dům
+                nebo byt příjemně teplý, efektivní a bez starostí.
+
+            </p>
+        </div>
+
+        <div class="service-card w-back flex-col">
+            <div class="service-head flex-row">
+                <img class="service-icon" src="images/drop.png">
+                <p class="service-header headline-italic o-text">
+                    Rozvody vody
+                </p>
+            </div>
+            <p class="service-text body">
+                Provedu rozvody teplé i studené vody tam,
+                kde je potřebujete. Dbám správné dimenzování
+                a dlouhou životnost instalace. Vodu budete
+                mít kdykoliv a kdekoliv, bez zdržení a problémů.
+            </p>
+        </div>
+
+        <div class="service-card w-back flex-col">
+            <div class="service-head flex-row">
+                <img class="service-icon" src="images/bath-tub.png">
+                <p class="service-header headline-italic o-text">
+                    Montáže van a WC
+                </p>
+            </div>
+            <p class="service-text body">
+                Namontuju vanu, sprchový kout, umyvadlo nebo WC
+                tak, aby všechno perfektně sedělo, technicky i vizuálně.
+                Umím si poradit i se starší koupelnou nebo atypickým řešením.
+
+            </p>
+        </div>
+
+        <div class="service-card w-back flex-col">
+            <div class="service-head flex-row">
+                <img class="service-icon" src="images/bath-tub.png">
+                <p class="service-header headline-italic o-text">
+                    Výměna bojlerů
+                </p>
+            </div>
+            <p class="service-text body">
+                Vyměním váš starý bojler za nový, rychle, bezpečně a bez
+                zbytečného zásahu do vašeho provozu. Postarám se o
+                zapojení, spuštění i ekologickou likvidaci starého zařízení.
+
+
+
+
+            </p>
+        </div>
+    </div>
+    <footer class="w-back flex-row">
+        <div class="footer-l">
+            <p class="footer-contact body">
+                Probluz 82, 503 15 Dolní Přím<br>
+                tel.: +420 732 878 838<br>
+                IČ: 17619971<br>
+                e-mail: tichyinstalater@gmail.com
+            </p>
+        </div>
+        <div class="footer-r flex-col">
+            <p class="footer-copy body">
+                © tichýinstalatér 2025 │ powered by Weblish
+            </p>
+            <div class="logos flex-row">
+                <img class="footer-logo" src="images/weblish-logo.svg">
+                <img class="footer-logo" src="images/divider.svg">
+                <img class="footer-logo tichy" src="images/logo-tichy.svg">
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="scripts/carousel.js"></script>
 
 </html>

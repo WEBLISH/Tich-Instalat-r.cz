@@ -1,0 +1,47 @@
+.services {
+    align-items: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 90px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.service-card {
+    width: 740px;
+    height: 280px;
+    border-radius: 12px;
+    align-items: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+.service-head {
+    margin-top: 30px;
+}
+
+.service-icon {
+    width: 90px;
+    height: 90px;
+    margin-right: 40px;
+}
+
+.service-icon.rad {
+    margin-top: -10px;
+}
+.service-header {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing:2px;
+}
+
+.service-text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 36px;
+    max-width: 90%;
+    margin-top: 24px;
+    font-weight: 400;
+}

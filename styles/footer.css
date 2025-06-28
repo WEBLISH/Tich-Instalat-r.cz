@@ -1,0 +1,43 @@
+footer {
+    height: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-contact {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.footer-r {
+    margin-right: 40px;
+    margin-bottom: -40px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copy {
+    font-size: 22px;
+    margin-bottom: -24px;
+    font-weight: 500;
+   
+}
+.logos {
+    align-items: center;
+    margin-top: 0px;
+    margin-left: -40px;
+}
+.footer-logo {
+    width: 220px;
+    height: 220px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.footer-logo.tichy {
+    width: 160px;
+    height: 160px;
+}
+.footer-divider {
+    font-size: 50px;
+}
