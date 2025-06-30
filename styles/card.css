@@ -71,3 +71,46 @@
     border-bottom-right-radius: 20px;;
 
 }
+
+
+@media (max-width: 1000px) {
+    .card-r {
+        width: 0%;
+    }
+
+    .card-img {
+        display: none;
+    }
+
+    .card-l {
+        width: 100%;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .card-button {
+        margin-left: 0px;
+    }
+    .card-text {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .card-header {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+    .card-main {
+        width: 90%;
+        align-items: center;
+        margin-bottom: -120px;
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 700px) {
+    .card-header {
+        font-size: 115px;
+    }
+}

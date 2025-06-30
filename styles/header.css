@@ -29,4 +29,26 @@ nav {
    font-size: 20px;
    font-weight: 600;
    padding-right: 20px
+} 
+
+@media (max-width: 700px) {
+    .l-h {
+        display: none;
+    }
+    header {
+        align-items: center;
+        justify-content: center;
+    }
+    nav {
+        width: 60%;
+        align-items: center;
+        
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        width: 80%;
+      
+    }
 }

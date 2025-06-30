@@ -14,6 +14,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="styles/carousel.css">
     <link rel="stylesheet" href="styles/service.css">
     <link rel="stylesheet" href="styles/footer.css">
+
 </head>
 
 <body>
@@ -30,17 +32,17 @@
             <p class="h-header body">Tichý Instalatér</p>
         </div>
         <nav class="body">
-            <a>
-                <p>O mně</p>
+            <a href="#about-me">
+                O mně
             </a>
-            <a>
-                <p>Služby</p>
+            <a href="#services">
+                Služby
             </a>
-            <a>
-                <p>Reference</p>
+            <a href="#ref">
+                Reference
             </a>
-            <a>
-                <p>Kontakt</p>
+            <a href="#con">
+                Kontakt
             </a>
         </nav>
     </header>
@@ -56,40 +58,50 @@
                     Profesionální rozvody vody, odpadu a topení - rychle a kvalitně
                 </h1>
                 <nav class="buttons flex-row ">
-                    <button class="card-button hollow body o-text">
-                        Služby
-                    </button>
-                    <button class="card-button fill o-back w-text">
-                        Kontakt
-                    </button>
+                    <a href="#services">
+                        <button class="card-button hollow body o-text">
+                            Služby
+                        </button>
+                    </a>
+
+                    <a href="#con">
+
+
+                        <button class="card-button fill o-back w-text">
+                            Kontakt
+                        </button>
+                    </a>
                 </nav>
             </div>
+
             <div class="card-r flex-col">
                 <img class="card-img" src="images/card-image.svg">
             </div>
         </div>
     </div>
-    <div class="me flex-row">
+    <div class="me flex-row" id="about-me">
         <div class="about-me flex-col d-b-back ">
             <p class="me-header headline-italic w-text">
                 O mně
             </p>
             <p class="me-text w-text body">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                Pellentesque pretium lectus id turpis. Phasellus et lorem
-                Pellentesque pretium lectus id turpis. Phasellus et lorem
-                Pellentesque pretium lectus id turpis. Phasellus et lorem
-                id felis nonummy placerat. Ut enim ad minim veniam, quis
-                id felis nonummy placerat. Ut enim ad minim veniam, quis
-                id felis nonummy placerat. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                Jsem instalatér působící v Hradci Králové a širokém okolí. Řemeslu se věnuji už několik let a každou
+                zakázku beru vážně. Zakládám si na pečlivosti,
+                spolehlivosti a přímém jednání. Věřím, že dobře odvedená práce a férový přístup se vyplácí.
+            </p>
+            <p class="me-text w-text body">
+                Zajišťuji kompletní instalatérské služby: rozvody vody a odpadů, výměny baterií, opravy potrubí,
+                zapojení bojlerů, rekonstrukce koupelen i další práce spojené s vodou a topením.
+            </p>
+            <p class="me-text w-text body">
+                Pokud hledáte někoho, kdo si dá na práci záležet, ozvěte se. Jako instalatér v Hradci Králové jsem
+                připraven dorazit na místo, poradit s výběrem vhodného řešení a vše provést tak, aby vám instalace dobře
+                sloužila.
+
+
             </p>
         </div>
-        <div class="contact o-back">
+        <div class="contact o-back" id="con">
             <p class="con-header headline-italic w-text">
                 Kontakt
             </p>
@@ -102,7 +114,7 @@
         </div>
     </div>
     <div class="car flex-col">
-        <h2 class="headline-italic">Reference</h2>
+        <h2 class="headline-italic" id="ref">Reference</h2>
 
         <div class="carousel-container">
             <div class="carousel-track" id="carouselTrack">
@@ -125,7 +137,7 @@
             </div>
         </div>
     </div>
-    <div class="services flex-col d-b-back">
+    <div class="services flex-col" id="services">
         <h3 class="headline-italic w-text">Služby</h3>
         <div class="service-card w-back flex-col">
             <div class="service-head flex-row">
@@ -162,7 +174,7 @@
                 <p class="service-header headline-italic o-text">
                     Rozvody topení
                 </p>
-            </div>
+            </div>x
             <p class="service-text body">
                 Postarám se o kompletní rozvody topení. Umím radiátory, podlahové topení i kombinované systémy. Váš dům
                 nebo byt příjemně teplý, efektivní a bez starostí.
@@ -218,7 +230,7 @@
             </p>
         </div>
     </div>
-    <footer class="w-back flex-row">
+    <footer class="w-back flex-row footer">
         <div class="footer-l">
             <p class="footer-contact body">
                 Probluz 82, 503 15 Dolní Přím<br>
@@ -232,9 +244,9 @@
                 © tichýinstalatér 2025 │ powered by Weblish
             </p>
             <div class="logos flex-row">
-                <img class="footer-logo" src="images/weblish-logo.svg">
-                <img class="footer-logo" src="images/divider.svg">
                 <img class="footer-logo tichy" src="images/logo-tichy.svg">
+                <img class="footer-logo" src="images/divider.svg">
+                <img class="footer-logo " src="images/weblish-logo.svg">
             </div>
         </div>
     </footer>
