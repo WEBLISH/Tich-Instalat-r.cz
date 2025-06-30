@@ -114,3 +114,15 @@
         font-size: 115px;
     }
 }
+
+@media (max-width: 500px) {
+    .card-header {
+        font-size: 90px;
+    }
+
+    .card-button {
+        width: 130px;
+        height: 45px;
+        font-size: 24px;
+    }
+}
