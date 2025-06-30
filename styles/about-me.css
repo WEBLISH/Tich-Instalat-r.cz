@@ -68,4 +68,37 @@
     .contact {
         width: 100%;
     }
+
+    .me-header {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .me-header,
+    .con-header {
+        font-size: 80px;
+    }
+
+    .me-text {
+        margin-left: 8px;
+        max-width: 95%;
+    }
+
+    .con-text {
+        font-size: 24px;
+        margin-top: 8px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .con-header {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 400px) {
+    .con-text {
+        font-size: 20px;
+    }
 }

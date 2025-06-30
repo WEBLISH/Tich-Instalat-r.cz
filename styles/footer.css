@@ -43,6 +43,10 @@ footer {
     font-size: 50px;
 }
 
+.footer-copy.hidden {
+    display: none;
+}
+
 
 @media (max-width : 1000px) {
     .footer {
@@ -55,6 +59,7 @@ footer {
     .footer-contact {
         text-align: center;
         margin-bottom: 20px;
+        margin-left: 0px;
     }
 
     .footer-r {
@@ -67,4 +72,53 @@ footer {
     }
 
   
+}
+
+@media (max-width: 700px) {
+    footer {
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-contact,
+    .footer-copy {
+        font-size: 20px;
+        
+    }
+
+    .footer-copy {
+        display: none;
+    }
+
+    .footer-logo {
+        width: 220px;
+        margin-top: 0px;
+        margin: 0px;
+    }
+
+    .footer-logo.tichy {
+        width: 220px;
+        margin-bottom: 0px;
+    }
+
+    .footer-copy.hidden {
+        text-align: center;
+        display: initial;
+    }
+
+    .logos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -40px;
+    }
+
+    .footer-logo.divider {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer-contact {
+        font-size: 18px;
+    }
 }

@@ -61,5 +61,20 @@ h3 {
 
     .service-head {
         text-align: center;
+        
+    }
+
+    .service-header {
+        font-size: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:500px) {
+    .service-text {
+        font-size: 18px;
+        line-height: 26px;
     }
 }

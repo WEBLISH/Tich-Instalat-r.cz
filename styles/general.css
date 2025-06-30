@@ -78,9 +78,3 @@ font-family: "IBM Plex Serif", serif;
     display: flex;
     flex-direction: column;
 }
-
-@media (max-width: 100px) {
-    footer {
-        height: 10000px;
-    }
-}

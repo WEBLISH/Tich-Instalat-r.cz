@@ -107,11 +107,21 @@
         margin-bottom: -120px;
         margin-top: 120px;
     }
+
+    .buttons {
+        margin-left: -16px;
+    }
+
+     .card-text {
+        max-width: 80%;
+    }
+
 }
 
 @media (max-width: 700px) {
     .card-header {
         font-size: 115px;
+        line-height: 100px;
     }
 }
 
@@ -125,4 +135,14 @@
         height: 45px;
         font-size: 24px;
     }
+}
+
+@media (max-width: 400px) {
+    .card-header {
+        font-size: 70px;
+         line-height: 70px;
+    }
+
+   
+    
 }
